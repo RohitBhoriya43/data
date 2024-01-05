@@ -11,7 +11,9 @@ setuptools.setup(
     description="Used as a token generation library",
     # long_description=read_me_description,
     long_description_content_type="text/markdown",
-    url="",
+    url="https://github.com/RohitBhoriya43/data",
+    download_url = 'https://github.com/RohitBhoriya43/data.git',    # I explain this later on
+    # keywords = ['SOME', 'MEANINGFULL', 'KEYWORDS'],
     packages=['token_generator'],
     install_requires=[            # I get to this in a second
           'requests'
